@@ -1,0 +1,35 @@
+<div class="content-wrapper">
+        <section class="content-header">
+                <h1>24 Hours. Sale Report <span id="title_h1"></span></h1>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="#"> <i class="fa fa-dashboard"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Examples</a>
+                    </li>
+                    <li class="active">404 error</li>
+                </ol>
+            </section>
+            <section class="content">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-info" (click)="drawChart('bar')">
+                                    <span>Bar</span>
+                                </button>
+                                <button type="button" class="btn btn-primary" (click)="drawChart('line')">
+                                    <span>Line</span>
+                                </button>
+                                <button type="button" class="btn btn-danger" (click)="drawChart('pie')">
+                                    <span>Pie</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="height: 500px;">
+                        <canvas id="myChart" ></canvas>
+                    </div>
+                </section>
+            
+</div>

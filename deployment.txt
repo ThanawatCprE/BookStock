@@ -1,0 +1,2 @@
+Build JIT = Just-in-Time => ng serve (load in to memmory) ,ng build
+Build AOT = Ahead-Of-Time => ng build --prod

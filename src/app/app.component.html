@@ -1,0 +1,6 @@
+<app-header *ngIf="rest.isLoggedIn()"></app-header>
+<app-menu *ngIf="rest.isLoggedIn()"></app-menu>
+<!-- <app-login></app-login> -->
+<router-outlet></router-outlet>
+<!-- <app-stock></app-stock> -->
+<app-footer *ngIf="rest.isLoggedIn()"></app-footer>
