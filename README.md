@@ -9,3 +9,4 @@ Link vdo : https://youtu.be/LhDeXeZMZ7M
 - ORM-DB(Sequelize)-SQLITE
 - Template AdminLTE
 - JSON RESTFul
+## Long time ago... withour coding, woring in system. one day.. i'll back to programming
